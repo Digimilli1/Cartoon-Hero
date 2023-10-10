@@ -1,0 +1,23 @@
+body{
+	margin:0;
+	font-family: 'Helvetica', sans-serif;
+	}
+
+header{
+	background-color:darkred;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-family: 'Major Mono Display', monospace;
+	font-size: 30px;
+}
+
+header h1{
+	color:ghostwhite;
+
+}
+
+header img{
+	border-radius: 50%;
+	border: 20px solid ghostwhite;
+}
