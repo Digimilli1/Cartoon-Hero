@@ -8,7 +8,7 @@ body{
 header{
 	background-color:darkred;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 40px;
 	padding-bottom: 15px;
 	font-size: 30px;
 }
@@ -43,8 +43,19 @@ h2{
 	font-size: 25px;
 }
 
+a{
+	color: darkred;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color:black;
+	color:ghostwhite;
+}
+
 footer a{
-	color: black;
+	color: darkred;
+	font-weight: bold;
 }
 
 footer {
@@ -53,20 +64,10 @@ footer {
 	background-color:deepskyblue;
 	color: ghostwhite;
 
-
-footer p{
-	margin:0;
-}
-
 footer a:hover{
-	background-color: darkred;
+	background-color:black;
+	color:ghostwhite;
 }
 
-a{
-	color: black;
-}
 
-a:hover{
-	background-color: darkred;
-	color: ghostwhite;
-}
+
