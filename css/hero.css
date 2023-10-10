@@ -40,7 +40,8 @@ main img{
 
 h2{
 	color: darkred;
-	font-size: 25px;
+	font-size: 30px;
+	margin: 40px 0 30px 0;
 }
 
 a{
@@ -63,11 +64,18 @@ footer {
 	padding:30px;
 	background-color:deepskyblue;
 	color: ghostwhite;
+}
 
 footer a:hover{
 	background-color:black;
 	color:ghostwhite;
 }
 
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+	font-size: 14px;
+}
 
 
