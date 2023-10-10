@@ -1,6 +1,8 @@
 body{
 	margin:0;
 	font-family: 'Helvetica', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
 	}
 
 header{
@@ -8,8 +10,12 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 15px;
-	font-family: 'Major Mono Display', monospace;
 	font-size: 30px;
+}
+
+
+h1,h2{
+	font-family: 'Major Mono Display', monospace;
 }
 
 header h1{
@@ -20,4 +26,47 @@ header h1{
 header img{
 	border-radius: 50%;
 	border: 20px solid ghostwhite;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px 0px 20;
+}
+
+main img{
+	max-width:100%;
+}
+
+h2{
+	color: darkred;
+	font-size: 25px;
+}
+
+footer a{
+	color: black;
+}
+
+footer {
+	text-align: center;
+	padding:30px;
+	background-color:deepskyblue;
+	color: ghostwhite;
+
+
+footer p{
+	margin:0;
+}
+
+footer a:hover{
+	background-color: darkred;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	background-color: darkred;
+	color: ghostwhite;
 }
